@@ -1,0 +1,435 @@
+
+:root {
+    --dark: #19172b;
+    --gold: #f2b95f;
+    --orange: #e77c45;
+    --cream: #fbf7ef;
+    --text: #29243a;
+    --muted: #77717b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--cream);
+    color: var(--text);
+    font-family: "DM Sans", sans-serif;
+}
+
+/* HEADER */
+
+.header {
+    height: auto;
+    padding: 0 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--cream);
+}
+
+.logo {
+    color: var(--dark);
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.back-home {
+    text-decoration: none;
+    color: #a56835;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* HERO */
+
+.hero {
+    min-height: 570px;
+    background:
+        radial-gradient(circle at 80% 50%,
+        #594052 0%, #29243d 40%, #19172b 85%);
+
+    padding: 90px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    color: white;
+}
+
+.hero-content {
+    max-width: 570px;
+}
+
+.tag {
+    color: var(--gold);
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.hero h1 {
+    font-family: "Tiro Devanagari Hindi", serif;
+    font-size: clamp(32px, 4vw, 48px);
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.hero h1 span {
+    display: block;
+    color: var(--gold);
+    font-family: "Playfair Display", serif;
+    font-size: 65px;
+}
+
+.hero h2 {
+    font-family: "Tiro Devanagari Hindi", serif;
+    font-size: 19px;
+    color: #f3c77e;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    color: #d1cad5;
+    line-height: 2;
+    font-size: 14px;
+    margin-bottom: 28px;
+}
+
+.gold-button {
+    display: inline-block;
+    background: linear-gradient(110deg, #f5cf83, #e99e4e);
+    padding: 15px 25px;
+    color: #302239;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+    transition: 0.3s;
+}
+
+.gold-button:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px #0003;
+}
+
+/* PROFILE IMAGE */
+
+.profile-image {
+    width: 320px;
+    min-width: 260px;
+    position: relative;
+    padding: 10px;
+    border: 1px solid #d9a55e;
+    background: #ffffff0b;
+}
+
+.profile-image img {
+    width: 100%;
+    height: 390px;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+
+.image-caption {
+    padding: 16px;
+    background: #242039;
+    text-align: center;
+}
+
+.image-caption strong {
+    display: block;
+    font-family: "Playfair Display", serif;
+    color: var(--gold);
+    font-size: 20px;
+}
+
+.image-caption span {
+    display: block;
+    font-size: 10px;
+    color: #c8c0ce;
+    margin-top: 6px;
+    letter-spacing: 1px;
+}
+
+/* ABOUT */
+
+.about-section,
+.values {
+    padding: 90px 10%;
+}
+
+.section-heading {
+    margin-bottom: 35px;
+}
+
+.section-heading span {
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: #bb7841;
+    font-weight: 700;
+}
+
+.section-heading h2 {
+    font-family: "Tiro Devanagari Hindi", serif;
+    font-size: 34px;
+    margin-top: 12px;
+}
+
+.about-card {
+    background: white;
+    padding: 40px;
+    border: 1px solid #eee3d5;
+    box-shadow: 0 15px 40px #3b2a1708;
+}
+
+.about-card > p {
+    font-family: "Tiro Devanagari Hindi", serif;
+    font-size: 16px;
+    line-height: 2.2;
+    color: #615a68;
+    margin-bottom: 20px;
+}
+
+.about-card strong {
+    color: #a96935;
+}
+
+.english-note {
+    border-left: 3px solid var(--gold);
+    background: #fbf5eb;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+.english-note h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 23px;
+    margin-bottom: 12px;
+}
+
+.english-note p {
+    color: var(--muted);
+    line-height: 1.9;
+    font-size: 13px;
+}
+
+/* FESTIVAL MESSAGE */
+
+.festival-message {
+    background:
+        radial-gradient(circle, #50384a, #201d32 75%);
+    padding: 85px 20px;
+    text-align: center;
+    color: white;
+}
+
+.sun-icon {
+    font-size: 50px;
+    color: var(--gold);
+    margin-bottom: 20px;
+}
+
+.festival-message > span {
+    font-family: "Tiro Devanagari Hindi", serif;
+    color: var(--gold);
+    font-size: 17px;
+}
+
+.festival-message h2 {
+    font-family: "Tiro Devanagari Hindi", serif;
+    font-size: clamp(30px, 5vw, 45px);
+    line-height: 1.7;
+    margin: 25px 0;
+}
+
+.festival-message p {
+    font-family: "Tiro Devanagari Hindi", serif;
+    color: #e0d4df;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.festival-message h3 {
+    font-family: "Tiro Devanagari Hindi", serif;
+    font-size: 18px;
+    color: var(--gold);
+}
+
+.signature {
+    margin-top: 35px;
+    color: #d3cbd6;
+    font-size: 12px;
+}
+
+.signature strong {
+    display: block;
+    color: var(--gold);
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+/* VALUES */
+
+.value-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.value-card {
+    background: white;
+    padding: 30px 20px;
+    text-align: center;
+    border: 1px solid #eee3d5;
+    transition: 0.3s;
+}
+
+.value-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 30px #0000000c;
+}
+
+.value-card span {
+    font-size: 32px;
+}
+
+.value-card h3 {
+    font-family: "Tiro Devanagari Hindi", serif;
+    margin: 15px 0 10px;
+    font-size: 20px;
+}
+
+.value-card p {
+    font-family: "Tiro Devanagari Hindi", serif;
+    color: var(--muted);
+    font-size: 12px;
+    line-height: 1.9;
+}
+
+/* FOOTER */
+
+footer {
+    background: var(--dark);
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+.footer-logo {
+    font-weight: 700;
+    color: var(--gold);
+    font-size: 21px;
+    letter-spacing: 2px;
+}
+
+footer p {
+    color: #c6bdcb;
+    font-size: 12px;
+    margin: 13px 0;
+}
+
+footer small {
+    display: block;
+    color: #9991a0;
+    font-size: 10px;
+    margin-top: 25px;
+}
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 850px) {
+
+    .hero {
+        padding: 70px 7%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-image {
+        width: 280px;
+    }
+
+    .hero h1 span {
+        font-size: 53px;
+    }
+
+    .value-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .header {
+        height: 70px;
+        padding: 0 5%;
+    }
+
+    .logo {
+        font-size: 15px;
+    }
+
+    .back-home {
+        font-size: 10px;
+    }
+
+    .hero {
+        padding: 65px 6%;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero h1 span {
+        font-size: 43px;
+    }
+
+    .hero h2 {
+        font-size: 16px;
+    }
+
+    .profile-image {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .about-section,
+    .values {
+        padding: 65px 6%;
+    }
+
+    .about-card {
+        padding: 22px;
+    }
+
+    .about-card > p {
+        font-size: 14px;
+    }
+
+    .value-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .value-card {
+        padding: 22px 10px;
+    }
+
+    .festival-message {
+        padding: 65px 15px;
+    }
+
+}
