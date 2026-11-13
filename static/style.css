@@ -1,3 +1,107 @@
-:root{--ink:#19172b;--muted:#777487;--cream:#fbf7ef;--gold:#f2b95f;--orange:#e77c45;--line:#e9e1d5;--serif:"Playfair Display",Georgia,serif;--sans:"DM Sans",Arial,sans-serif}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased}.announcement{height:34px;background:#211d35;color:#f6d9a5;text-align:center;font-size:10px;letter-spacing:1.5px;padding:10px}.announcement span{padding:0 9px;color:#a87d49}.site-header{height:84px;padding:0 7.5%;display:flex;align-items:center;justify-content:space-between;background:var(--cream);position:relative;z-index:5}.brand{display:flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink);font-size:15px;font-weight:700;letter-spacing:2px}.brand-mark{display:grid;place-items:center;width:38px;height:38px;border:1px solid #dba65d;border-radius:50%;color:#c77b36;font-size:24px}.brand-light{font-weight:400;color:#a66c37}.brand small{display:block;font-size:7px;letter-spacing:2px;color:#8a8491;margin-top:4px}.site-header nav{display:flex;align-items:center;gap:34px}.site-header nav a,.text-link{font-size:12px;text-decoration:none;color:#514d5c}.site-header nav a:hover,.text-link:hover{color:#b16c36}.nav-cta{border:1px solid #d6a45f;background:transparent;color:#8e5a2d;padding:12px 17px;font:600 11px var(--sans);cursor:pointer}.menu-toggle{display:none;background:none;border:0;font-size:25px;color:var(--ink)}.hero{position:relative;overflow:hidden;min-height:680px;background:radial-gradient(ellipse at 76% 65%,#55405a 0,#27233d 37%,#19172b 73%);color:#fff;padding:100px 7.5% 0}.hero-glow{position:absolute;width:550px;height:550px;border-radius:50%;right:9%;top:4%;background:radial-gradient(circle,rgba(246,167,83,.14),transparent 68%)}.hero-content{position:relative;z-index:2;max-width:570px}.eyebrow,.section-label{font-size:9px;letter-spacing:2.6px;font-weight:700;color:#c58c4f}.eyebrow span{display:inline-block;width:25px;height:1px;background:#e5aa5e;vertical-align:middle;margin-right:10px}.hindi-kicker,.blessing-hindi{font-family:"Tiro Devanagari Hindi",serif;color:#efbd78}.hindi-kicker{font-size:16px;margin:27px 0 10px}.hero h1{font:500 clamp(48px,6.3vw,78px)/1.08 var(--serif);letter-spacing:-2px;margin:0}.hero h1 em,.intro h2 em,.section-heading h2 em,.blessing h2 em,.wishes-intro h2 em{color:#edb96e;font-weight:500}.hero-copy{max-width:455px;color:#c6c1cf;font-size:14px;line-height:1.9;margin:24px 0 29px}.hero-actions{display:flex;align-items:center;gap:27px}.button{display:inline-flex;align-items:center;justify-content:center;gap:22px;text-decoration:none;border:0;padding:15px 20px;font:700 11px var(--sans);letter-spacing:.2px;cursor:pointer;transition:.2s}.button:hover{transform:translateY(-2px)}.button-gold{background:linear-gradient(110deg,#f3c878,#e9a34f);color:#302239}.button-gold span{font-size:17px}.text-link{color:#e4d7c9}.text-link span{padding-left:8px}.hero-note{margin-top:63px;color:#a8a2b1;font-size:10px;letter-spacing:.7px;display:flex;align-items:center;gap:12px}.note-line{width:28px;height:1px;background:#bc8d57}.sun-scene{position:absolute;width:53%;height:520px;right:0;bottom:60px;overflow:hidden}.sun{position:absolute;width:220px;height:220px;border-radius:50%;background:linear-gradient(145deg,#ffe5a2,#f49a51 72%);top:65px;left:45%;transform:translateX(-50%);box-shadow:0 0 90px 35px rgba(245,157,81,.18)}.sun-halo{position:absolute;width:390px;height:390px;border:1px solid rgba(245,183,116,.15);border-radius:50%;top:-20px;left:45%;transform:translateX(-50%)}.horizon{position:absolute;top:278px;left:0;width:100%;height:1px;background:rgba(255,211,157,.45)}.river{position:absolute;left:0;width:100%;height:160px;background:linear-gradient(180deg,rgba(239,154,95,.15),rgba(56,47,72,.04));transform:perspective(180px) rotateX(5deg)}.river-one{top:280px}.river-two{top:355px;opacity:.5}.reflection{position:absolute;top:285px;left:38%;width:130px;height:170px;background:linear-gradient(180deg,rgba(255,199,125,.6),rgba(231,139,88,0));clip-path:polygon(40% 0,60% 0,100% 100%,0 100%);filter:blur(5px)}.ghat{position:absolute;bottom:0;height:130px;background:linear-gradient(120deg,#242137,#17172b);opacity:.95}.ghat-left{left:0;width:27%;clip-path:polygon(0 40%,100% 0,100% 100%,0 100%)}.ghat-right{right:0;width:30%;clip-path:polygon(0 0,100% 37%,100% 100%,0 100%)}.diya{position:absolute;color:#ffd58d;text-shadow:0 0 15px #ff9c4d;font-size:21px}.diya-one{bottom:63px;left:27%}.diya-two{bottom:34px;left:51%}.diya-three{bottom:76px;right:23%}.scene-caption{position:absolute;bottom:17px;left:45%;transform:translateX(-50%);font-size:8px;letter-spacing:3px;color:#b3a1a0}.hero-bottom{position:relative;z-index:3;border-top:1px solid rgba(255,255,255,.15);margin-top:45px;min-height:93px;display:flex;align-items:center;justify-content:space-between}.hero-bottom small{display:block;color:#a9a2b2;font-size:8px;letter-spacing:1.7px;margin-bottom:8px}.hero-bottom strong{font-size:11px;letter-spacing:1.3px;color:#f0d7b2}.countdown{display:flex;gap:22px}.countdown b{font-size:18px;font-weight:500;color:#f4c77e;text-align:center}.countdown i{display:block;font-size:8px;font-style:normal;color:#a9a2b2;letter-spacing:1px;margin-top:3px}.section{padding:105px 9%}.intro{background:#fbf7ef}.intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:8%;align-items:start;margin-top:28px}.intro h2,.section-heading h2,.wishes-intro h2{font:500 clamp(34px,4vw,48px)/1.2 var(--serif);margin:0;letter-spacing:-1px}.intro h2 em,.section-heading h2 em,.wishes-intro h2 em{color:#bb7841}.intro-copy{font-size:13px;line-height:2;color:#716d78}.intro-copy p{margin:0 0 14px}.values{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);margin-top:58px;padding-top:28px}.values div{display:grid;gap:8px;border-right:1px solid var(--line);padding-left:28px}.values div:first-child{padding-left:0}.values div:last-child{border:0}.values span{font-size:24px;color:#c28245}.values b{font:500 17px var(--serif)}.values small{font-size:10px;color:#8b8490}.ritual-section{background:#f2ece2}.section-heading{display:flex;align-items:end;justify-content:space-between;margin:25px 0 38px}.section-heading h2{font-size:43px}.section-heading p{font-size:12px;color:#817a83;margin:12px 0 0}.year-stamp{font:600 11px var(--sans);letter-spacing:2px;color:#b57c47;border:1px solid #d8b98f;padding:12px 18px;text-align:center;line-height:1.6}.ritual-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.ritual-card{position:relative;min-height:290px;background:#fbf8f2;padding:25px 22px;border:1px solid #e9dfd1;transition:.25s}.ritual-card:hover{transform:translateY(-5px);box-shadow:0 15px 35px #6b503015}.ritual-card.featured{background:#29243c;color:#fff;border-color:#29243c}.ritual-number{position:absolute;right:18px;top:17px;font:italic 20px var(--serif);color:#c9a77d}.ritual-icon{font-size:29px;margin:4px 0 23px}.ritual-card>small{font-size:8px;letter-spacing:1.3px;color:#a77b4b}.ritual-card h3{font:500 22px var(--serif);margin:10px 0}.ritual-card p{font-size:11px;line-height:1.8;color:#77717b}.ritual-card.featured p{color:#c8c0ce}.ritual-hindi{display:block;font:14px "Tiro Devanagari Hindi",serif;color:#c18a53;margin-top:17px}.timing-note{font-size:10px;color:#817a83;margin-top:22px}.blessing{padding:90px 20px;text-align:center;background:radial-gradient(ellipse at center,#4c3545,#211d35 70%);color:#fff}.blessing-symbol{font-size:36px;color:#f1bb69;text-shadow:0 0 35px #f5a54f}.blessing-hindi{font-size:18px;margin:18px 0}.blessing h2{font:500 clamp(32px,4vw,47px)/1.2 var(--serif);margin:12px}.blessing h2 em{color:#edb96e}.blessing>p:not(.blessing-hindi){color:#c5bdc8;font-size:12px;margin:18px 0 25px}.button-outline{border:1px solid #b99164;background:transparent;color:#f5d5a0}.wishes-section{background:#fbf7ef}.wishes-grid{display:grid;grid-template-columns:1fr 1fr;gap:10%;margin-top:27px}.wishes-intro p{max-width:390px;font-size:12px;line-height:1.9;color:#77717b}.wish-quote{border-left:2px solid #d49b5c;padding:10px 15px;margin-top:30px;font:14px "Tiro Devanagari Hindi",serif;color:#a56d3d}.wish-form{background:#f2ece2;padding:28px}.wish-form label{display:block;font-size:8px;font-weight:700;letter-spacing:1.5px;color:#716a76;margin:0 0 9px}.wish-form input,.wish-form textarea{width:100%;border:1px solid #e1d6c8;background:#fffdf9;padding:13px 14px;font:12px var(--sans);color:var(--ink);outline:none;margin-bottom:19px;resize:vertical}.wish-form input:focus,.wish-form textarea:focus{border-color:#c28a4e}.form-bottom{display:flex;align-items:center;justify-content:space-between}.form-bottom small{font-size:9px;color:#918895}.form-status{font-size:11px;min-height:15px;color:#46764d}.wall-heading{display:flex;align-items:end;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:17px;margin-top:70px}.wall-heading small{font-size:8px;letter-spacing:1.8px;color:#b17b49}.wall-heading h3{font:500 24px var(--serif);margin:8px 0 0}.wall-heading>span{font-size:10px;color:#8c8590}.wish-wall{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:20px}.wish-card{background:#f5efe5;border:1px solid #e9dfd1;padding:19px}.wish-card p{font:14px/1.7 var(--serif);color:#514957;margin:0 0 16px}.wish-card strong{font-size:10px;color:#a36d3c}.wish-card small{display:block;font-size:8px;color:#99919b;margin-top:5px}.empty-state{font-size:11px;color:#928b94}footer{position:relative;background:#201d32;color:#fff;padding:42px 9% 22px;display:flex;align-items:center;gap:30px;flex-wrap:wrap}.footer-brand{color:#fff}.footer-brand .brand-mark{color:#e6b76e}.footer-brand .brand-light{color:#e2b16d}.footer-brand small{color:#a9a1b0}footer>p{font-size:10px;color:#bcb4c1;margin-right:auto}.back-top{font-size:8px;letter-spacing:1.5px;color:#e8bd7e;text-decoration:none}.copyright{width:100%;border-top:1px solid #ffffff20;padding-top:18px;margin-top:20px;font-size:8px;letter-spacing:1.4px;color:#928b9c}
-@media(max-width:900px){.hero{min-height:700px}.sun-scene{width:60%;opacity:.72;right:-8%;bottom:80px}.hero-content{max-width:520px}.ritual-grid{grid-template-columns:repeat(2,1fr)}.section{padding:80px 7%}.wish-wall{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:650px){.announcement{font-size:8px;letter-spacing:.8px}.site-header{height:70px;padding:0 6%}.menu-toggle{display:block}.site-header nav{display:none;position:absolute;top:70px;left:0;right:0;background:#fbf7ef;padding:20px 6%;box-shadow:0 12px 20px #00000010;align-items:stretch;gap:18px;flex-direction:column}.site-header nav.open{display:flex}.nav-cta{text-align:left}.hero{padding:76px 7% 0;min-height:760px}.hero h1{font-size:54px}.hero-copy{font-size:12px;max-width:340px}.sun-scene{width:100%;height:390px;right:-15%;bottom:100px;opacity:.52}.sun{width:165px;height:165px;top:65px}.sun-halo{width:300px;height:300px}.horizon{top:235px}.river-one{top:236px}.river-two{top:300px}.hero-note{margin-top:40px}.hero-bottom{margin-top:35px;align-items:flex-start;padding:20px 0;gap:18px;flex-direction:column}.countdown{gap:17px}.countdown b{font-size:16px}.section{padding:70px 7%}.intro-grid,.wishes-grid{grid-template-columns:1fr;gap:25px}.intro h2,.section-heading h2,.wishes-intro h2{font-size:37px}.values{grid-template-columns:repeat(2,1fr);row-gap:25px}.values div:nth-child(3){padding-left:0;border:0}.section-heading{align-items:flex-start}.year-stamp{font-size:9px;padding:9px 12px}.ritual-grid{gap:9px}.ritual-card{padding:19px 15px;min-height:300px}.ritual-card h3{font-size:19px}.ritual-card p{font-size:10px}.wish-form{padding:20px}.wish-wall{grid-template-columns:1fr}.wall-heading{margin-top:50px}footer{padding:35px 7% 20px;gap:17px}footer>p{width:100%;order:2}.back-top{margin-left:auto}.copyright{order:3}}
+/* Professional styling for Chhath Puja Celebration */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&family=Tiro+Devanagari+Hindi&display=swap');
+
+:root {
+    --ink: #211d32;
+    --gold: #d5a15e;
+    --paper: #fbf7ef;
+    --line: #e8ddce;
+    --bg-image: url('https://images.unsplash.com/photo-1602270719089-3f40dd037a8e'); /* fallback image */
+}
+
+html, body {
+    margin:0;
+    padding:0;
+    font-family: 'DM Sans', sans-serif;
+    background: var(--paper);
+    color: var(--ink);
+    scroll-behavior: smooth;
+}
+
+/* Full‑screen hero background */
+.hero {
+    position: relative;
+    min-height: 100vh;
+    padding: 4rem 2rem;
+    background: radial-gradient(ellipse at 77% 60%,#684354 0%,#35263f 34%,#211d32 73%);
+    color: #fff;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    inset:0;
+    background: var(--bg-image) center/cover no-repeat;
+    opacity: 0.15;
+    z-index:-1;
+}
+
+/* Header & navigation */
+.site-header {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:1rem 2rem;
+    background:rgba(255,255,255,.9);
+    position:sticky;
+    top:0;z-index:10;
+    box-shadow:0 2px 4px rgba(0,0,0,.1);
+}
+
+.brand {
+    font-size:1.2rem;
+    font-weight:800;
+    color:var(--ink);
+    text-decoration:none;
+    display:flex;align-items:center;
+}
+.brand-mark {font-size:1.8rem;margin-right:.4rem;}
+.brand-light {color:var(--gold);}
+.brand small {font-size:.6rem;letter-spacing:2px;margin-left:.4rem;}
+
+.menu-toggle {display:none; background:none; border:none; font-size:1.5rem; cursor:pointer;}
+#mainNav a {margin:0 .8rem; color:var(--ink); text-decoration:none; font-weight:500;}
+#mainNav .nav-cta {background:var(--gold); color:#fff; padding:.4rem .8rem; border-radius:4px; margin-left:1rem;}
+
+/* Hero content */
+.hero-content {max-width:800px; margin:auto; text-align:center; position:relative; z-index:2;}
+.eyebrow {font-size:.9rem;letter-spacing:2px; margin-bottom:1rem;}
+.hindi-kicker {font-family:'Tiro Devanagari Hindi', serif; font-size:1rem; margin: .5rem 0;}
+.hero h1 {font-family:'Playfair Display', serif; font-size:clamp(2.5rem,5vw,4rem); line-height:1.1; margin:1rem 0;}
+.hero-copy {font-size:.95rem; line-height:1.7; max-width:600px; margin:auto;}
+.hero-actions {margin-top:2rem; display:flex; gap:1rem; justify-content:center;}
+.button {background:var(--gold); color:#fff; padding:.6rem 1rem; border:none; border-radius:4px; cursor:pointer; text-decoration:none; font-weight:600;}
+.button-gold {background:var(--gold);}
+.text-link {color:var(--ink); font-weight:500;}
+.hero-note {margin-top:2rem; font-size:.85rem; opacity:.8;}
+
+/* Countdown */
+.countdown-wrap {margin-top:1rem;}
+.countdown b {display:inline-block; margin:0 .4rem; font-size:1.2rem;}
+
+/* Gallery */
+.gallery {display:flex; flex-wrap:wrap; gap:0.8rem; justify-content:center; margin:2rem 0;}
+.gallery img {width:200px; height:140px; object-fit:cover; border-radius:4px; border:2px solid var(--line);}
+
+/* Wishes */
+.wish-form {display:flex; flex-direction:column; gap:.5rem; max-width:400px; margin:auto;}
+.wish-form input, .wish-form textarea {padding:.6rem; border:1px solid var(--line); border-radius:4px; width:100%;}
+.wish-form button {align-self:flex-start;}
+.wish-wall {margin-top:2rem; display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:1rem;}
+.wish-card {background:#f5efe5; border:1px solid var(--line); padding:1rem; border-radius:4px;}
+.wish-message {font-style:italic; margin-bottom:.5rem;}
+.wish-author {font-weight:700; color:var(--gold);}
+.wish-date {font-size:.8rem; color:#777;}
+
+/* Footer */
+footer {background:var(--ink); color:#fff; text-align:center; padding:2rem; margin-top:4rem;}
+footer a {color:#fff; text-decoration:none;}
+.back-top {display:block; margin-top:1rem; font-size:.9rem;}
+
+@media(max-width:800px){
+    .site-header{flex-direction:column;}
+    .menu-toggle{display:block;}
+    #mainNav{display:none; flex-direction:column;}
+    #mainNav.show{display:flex;}
+}
