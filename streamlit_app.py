@@ -25,7 +25,6 @@ from typing import Any, Iterator, List
 from urllib.parse import quote
 
 import streamlit as st
-import streamlit.components.v1 as components
 
 # ---------------------------------------------------------------------------
 # Configuration & Paths
@@ -57,21 +56,7 @@ st.set_page_config(
 # ---------------------------------------------------------------------------
 # Styling (kept largely unchanged for consistency)
 # ---------------------------------------------------------------------------
-st.markdown(
-    """
-    <style>
-    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Tiro+Devanagari+Hindi&display=swap');
-    :root { --ink: #211d32; --gold: #d5a15e; --paper: #fbf7ef; --line: #e8ddce; }
-    html { scroll-behavior: smooth; }
-    .stApp { background: var(--paper); color: var(--ink); font-family: 'DM Sans', sans-serif; }
-    .profile { text-align: center; margin-bottom: 1.5rem; }
-    .profile img { border-radius: 50%; width: 120px; height: 120px; object-fit: cover; border: 4px solid var(--gold); }
-    .gallery { display: flex; flex-wrap: wrap; gap: 0.8rem; justify-content: center; }
-    .gallery img { width: 200px; height: 140px; object-fit: cover; border-radius: 4px; border: 2px solid var(--line); }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
+st.markdown('<link rel="stylesheet" href="static/style.css">', unsafe_allow_html=True)
 
 # ---------------------------------------------------------------------------
 # Database Helpers
@@ -236,7 +221,7 @@ with col_left:
     st.markdown(
         """
         <div class="profile">
-            <img src="static/raj.png" alt="Profile picture">
+            <img src="static/gallery/raj.png" alt="Profile picture">
             <h2>Rajat Yadav</h2>
             <p>Full‑stack developer & cultural enthusiast</p>
         </div>
